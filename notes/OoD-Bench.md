@@ -1,4 +1,4 @@
-**OoD-Bench: Benchmarking and Understanding Out-of-Distribution Generalization Datasets and Algorithms**
+## OoD-Bench: Benchmarking and Understanding Out-of-Distribution Generalization Datasets and Algorithms
 
 分类: 数据集, 度量
 
