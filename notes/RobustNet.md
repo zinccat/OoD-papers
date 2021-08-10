@@ -25,11 +25,11 @@ The ISW loss is defined as
 $$
 \mathcal{L}_{\mathrm{ISW}}=\mathbb{E}\left[\left\|\boldsymbol{\Sigma}_{\mathbf{s}} \odot \tilde{\mathbf{M}}\right\|_{1}\right]
 $$
-<img src="images/RobustNet/image-20210810162752680.png" alt="image-20210810162752680" style="zoom:50%;" />
+<img src="images/RobustNet/1.png" alt="image-20210810162752680" style="zoom:50%;" />
 
 使用的网络结构如(d)所示
 
-<img src="images/RobustNet/image-20210810161729701.png" alt="image-20210810161729701" style="zoom:50%;" />
+<img src="images/RobustNet/2.png" alt="image-20210810161729701" style="zoom:50%;" />
 
 最终loss为
 $$
@@ -39,7 +39,7 @@ $$
 
 相比baseline有较大提升
 
-<img src="images/RobustNet/image-20210810162655097.png" alt="image-20210810162655097" style="zoom:50%;" />
+<img src="images/RobustNet/3.png" alt="image-20210810162655097" style="zoom:50%;" />
 
-<img src="images/RobustNet/image-20210810162427292.png" alt="image-20210810162427292" style="zoom:50%;" />
+<img src="images/RobustNet/4.png" alt="image-20210810162427292" style="zoom:50%;" />
 

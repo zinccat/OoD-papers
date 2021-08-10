@@ -30,7 +30,7 @@ We introduce four new real-world distribution shift datasets consisting of chang
 
 + Real Blurry Images, which consists of 1,000 blurry natural images from a 100-class subset of the ImageNet classes.
 
-![image-20210810152730570](images/The%20Many%20Faces%20of%20Robustness/image-20210810152730570.png)
+![image-20210810152730570](images/TheManyFacesofRobustness/1.png)
 
 ###### DeepAugment
 
@@ -38,11 +38,11 @@ DeepAugment works by passing a clean image through an image-to-image network and
 
 其效果如下图所示
 
-<img src="images/The%20Many%20Faces%20of%20Robustness/image-20210810153715177.png" alt="image-20210810153715177" style="zoom:50%;" />
+<img src="images/TheManyFacesofRobustness/2.png" alt="image-20210810153715177" style="zoom:50%;" />
 
 ###### 实验结果
 
-<img src="images/The%20Many%20Faces%20of%20Robustness/image-20210810154130794.png" alt="image-20210810154130794" style="zoom:50%;" />
+<img src="images/TheManyFacesofRobustness/3.png" alt="image-20210810154130794" style="zoom:50%;" />
 
 某种意义上与OoD-bench一致, 没有恒优于ERM的算法
 
