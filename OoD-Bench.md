@@ -23,13 +23,13 @@ $$
 
 两种shift可由下图形象化表示
 
-<img src="images/OoD-Bench1.png" alt="image-20210810142209517" style="zoom:50%;" />
+<img src="images/OoD-Bench/1.png" alt="image-20210810142209517" style="zoom:50%;" />
 
 作者学了一个分类器来区分环境以获得$\mathcal{Z_2}$​, 并施加==Kernel Density Estimation (KDE)==以获得diversity数值
 
 测量结果如下图所示
 
-<img src="images/OoD-Bench2.png" alt="image-20210810143332142" style="zoom:50%;" />
+<img src="images/OoD-Bench/2.png" alt="image-20210810143332142" style="zoom:50%;" />
 
 对correlation shift占主导的数据不应使用训练集作为模型选择依据
 
@@ -37,7 +37,7 @@ $$
 
 作者而后针对VREx和RSC进行了经验性的分析, 绘制了其关注的焦点 (attention heatmap), 如下图所示
 
-<img src="images/OoD-Bench3.png" alt="image-20210810144821103" style="zoom:50%;" />
+<img src="images/OoD-Bench/3.png" alt="image-20210810144821103" style="zoom:50%;" />
 
 作者给出的几点建议
 
