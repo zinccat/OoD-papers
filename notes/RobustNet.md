@@ -1,17 +1,25 @@
 ## RobustNet: Improving Domain Generalization in Urban-Scene Segmentation via Instance Selective Whitening
 
+<img src="images/RobustNet/v2-29a2e08cc988a98d524918681e0c228b_b.webp" alt="img" style="zoom:25%;" />
+
 贡献
 
 + proposes a novel instance selective whitening loss to improve the robustness of the **segmentation ** networks for unseen domains
 + The proposed loss can easily be used in existing models and signiﬁcantly improves the generalization ability with negligible computational cost.
 
+Motivation:
+
+<img src="images/RobustNet/image-20210810234618045.png" alt="image-20210810234618045" style="zoom:50%;" />
+
 思路是feature covariance contains domain-speciﬁc style such as texture and color, 故可用whitening去除, 但难点在于whitening同时会消除部分invariant特征, 故需将两种因素解耦.
+
+style information mainly exists in the early layers of the network as pointed out in IBN-Net
 
 Whitening: A whitening transformation is a technique that removes feature correlation and makes each feature have unit variance.
 
 ==BN improves discriminative ability on features, while IN prevents overﬁtting on training data==
 
-WT的缺点包括特征值分解开销较高, deep whitening transformation (DWT) 方法使用如下loss近似进行WT
+WT的缺点包括特征值分解开销较高 $(O(n^3))$, deep whitening transformation (DWT) 方法使用如下loss近似进行WT
 $$
 \mathcal{L}_{\mathrm{DWT}}=\mathbb{E}\left[\left\|\boldsymbol{\Sigma}_{\mu}-\mathbf{I}\right\|_{1}\right]
 $$
