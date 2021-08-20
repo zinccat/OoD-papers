@@ -25,8 +25,15 @@ A place for storing thoughts on OoD papers.
 1. Domain-Adversarial Training of Neural Networks (DANN) 在分类准确的同时尽可能把环境分错, 优化问题可能解的不好
 2. DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation 相比DANN, 说明让模型做更准确的任务(分得更好)比不明确的任务效果更好
 
-###### 配对
+###### Pairing
 
 1. DAIR: Data Augmented Invariant Regularization 在能够准确获得不同domain下样本对时, 通过简单的pairing loss即可在CMNIST上做得很好
 
-Domain Generalization via Gradient Surgery
+###### Gradient Alignment
+
+1. Domain Generalization via Gradient Surgery 同AND-mask, 只在各域梯度方向相同时进行更新, 不同时用随机噪声替代以避免神经元不被更新
+
+###### Single Domain
+
+1. Environment Inference for Invariant Learning (EIIL) ICML 2021 环境划分 在ERM易学到虚假特征时, 可以利用其划分环境供OoD算法学习, 在label noise较大的时候效果较好
+

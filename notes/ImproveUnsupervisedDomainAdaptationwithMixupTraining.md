@@ -29,4 +29,4 @@ $$
 
 反正能加mixup的地方都加上了…
 
-<img src="images/ImproveUnsupervisedDomainAdaptationwithMixupTraining/image-20210810202518008.png" alt="image-20210810202518008" style="zoom:50%;" />
+<img src="images/ImproveUnsupervisedDomainAdaptationwithMixupTraining/1.png" alt="image-20210810202518008" style="zoom:50%;" />
